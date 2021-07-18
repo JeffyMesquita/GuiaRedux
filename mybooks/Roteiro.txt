@@ -25,3 +25,26 @@ yarn add react-router-dom
 Crie o arquivo src/routes.js que terá as configurações das nossas rotas,
 
 Em seguida no src/App.js, ao invés de renderizar a página diretamente, vamos chamar o nosso arquivo de rotas, que ficará responsável por decidir qual página será renderizada.
+
+Header
+Como o Header é algo que será o mesmo nas duas páginas, será mais interessante criá-lo como um component.
+Antes de criar diretamente o component, vamos adicionar ao projeto seus recursos externos.
+
+Para baixar o logo, acesse https://www.flaticon.com/free-icon/book_710330?term=book&page=1&position=11 e escolha este ícone na cor #FFFFFF e tamanho 32px.
+
+Em seguida crie a pasta src/assets e coloque dentro o ícone que acabamos de baixar.
+
+Em seguida instale o pacote de ícones do React:
+
+yarn add react-icons
+
+criar src/components/Header/index.js
+criar src/components/Header/styles.js
+
+Com o nosso Header criado, vamos disponibilizá-lo em todas as telas, para isto basta inserí-lo no src/App.js.
+
+Página Home
+Esta é a página onde vamos listar todos os livros a venda.
+Vamos começar pela estrutura da página, com alguns dados fixos por enquanto.
+
+Att No arquivo src/pages/Home/index.js 
