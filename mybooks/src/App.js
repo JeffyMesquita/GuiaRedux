@@ -1,7 +1,14 @@
 import React from "react";
 
-function App() {
-  return <h1>OneBitBooks</h1>;
-}
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+import Routes from "./routes";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
+  );
+}
 export default App;

@@ -1,0 +1,27 @@
+npx create-react-app 'myApp' 
+
+Limpando projeto
+Após isso, vamos limpar o nosso projeto.
+
+1- Primeiro remova os seguintes arquivos que não vamos utilizar:
+
+public/favicon.ico
+public/logo192.png
+public/logo512.png
+public/manifest.json
+public/robots.txt
+src/App.test.js
+src/App.css
+src/logo.svg
+src/serviceWorker.js
+src/setupTests.js
+
+
+Instale o React Router Dom, que será responsável pelo roteamento
+das páginas:
+
+yarn add react-router-dom
+
+Crie o arquivo src/routes.js que terá as configurações das nossas rotas,
+
+Em seguida no src/App.js, ao invés de renderizar a página diretamente, vamos chamar o nosso arquivo de rotas, que ficará responsável por decidir qual página será renderizada.
