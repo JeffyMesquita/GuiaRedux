@@ -48,3 +48,7 @@ Esta é a página onde vamos listar todos os livros a venda.
 Vamos começar pela estrutura da página, com alguns dados fixos por enquanto.
 
 Att No arquivo src/pages/Home/index.js 
+
+Agora vamos partir para a estilização desta página
+No arquivo src/pages/Home/styles.css deixe-o att
+
